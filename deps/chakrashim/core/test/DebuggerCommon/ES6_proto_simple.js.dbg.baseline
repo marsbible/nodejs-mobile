@@ -1,0 +1,41 @@
+[
+  {
+    "this": {
+      "a": {
+        "#__proto__": "Object {...}",
+        "x": "number 2"
+      },
+      "b": {
+        "#__proto__": "Object {...}",
+        "y": "number 2"
+      }
+    },
+    "locals": {
+      "a": {
+        "#__proto__": {
+          "constructor": "function <large string>",
+          "hasOwnProperty": "function <large string>",
+          "propertyIsEnumerable": "function <large string>",
+          "isPrototypeOf": "function <large string>",
+          "toLocaleString": "function <large string>",
+          "toString": "function <large string>",
+          "valueOf": "function <large string>",
+          "#__proto__": "object null",
+          "__defineGetter__": "function <large string>",
+          "__defineSetter__": "function <large string>",
+          "__lookupGetter__": "function <large string>",
+          "__lookupSetter__": "function <large string>"
+        },
+        "x": "number 2"
+      },
+      "b": {
+        "#__proto__": {
+          "#__proto__": "Object {...}",
+          "x": "number 2"
+        },
+        "y": "number 2"
+      }
+    },
+    "globals": {}
+  }
+]

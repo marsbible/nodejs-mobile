@@ -1,0 +1,30 @@
+[
+  {
+    "this": {
+      "a": "Object {...}"
+    },
+    "locals": {
+      "y": "string x",
+      "a": {
+        "#__proto__": "Object {...}",
+        "x": "number 2",
+        "y": "number 1"
+      }
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "a": "Object {...}"
+    },
+    "locals": {
+      "y": "string y",
+      "a": {
+        "#__proto__": "Object {...}",
+        "x": "number 2",
+        "y": "number 1"
+      }
+    },
+    "globals": {}
+  }
+]

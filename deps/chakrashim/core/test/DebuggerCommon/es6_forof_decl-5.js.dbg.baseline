@@ -1,0 +1,150 @@
+[
+  {
+    "this": "Object {...}",
+    "locals": {
+      "x": "string <large string>",
+      "q": "number 1"
+    }
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "y": "string <large string>",
+      "x": "number 0",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 0",
+      "x": "number 0",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 1",
+      "x": "number 0",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 2",
+      "x": "number 0",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "y": "string <large string>",
+      "x": "number 1",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 0",
+      "x": "number 1",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 1",
+      "x": "number 1",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 2",
+      "x": "number 1",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "y": "string <large string>",
+      "x": "number 2",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 0",
+      "x": "number 2",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 1",
+      "x": "number 2",
+      "q": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "q": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 2",
+      "x": "number 2",
+      "q": "number 1"
+    },
+    "globals": {}
+  }
+]

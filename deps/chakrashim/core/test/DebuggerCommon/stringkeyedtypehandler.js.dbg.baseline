@@ -1,0 +1,71 @@
+[
+  {
+    "this": {},
+    "arguments": {
+      "#__proto__": {
+        "constructor": "function <large string>",
+        "hasOwnProperty": "function <large string>",
+        "propertyIsEnumerable": "function <large string>",
+        "isPrototypeOf": "function <large string>",
+        "toLocaleString": "function <large string>",
+        "toString": "function <large string>",
+        "valueOf": "function <large string>",
+        "#__proto__": "object null",
+        "__defineGetter__": "function <large string>",
+        "__defineSetter__": "function <large string>",
+        "__lookupGetter__": "function <large string>",
+        "__lookupSetter__": "function <large string>"
+      },
+      "length": "number 0",
+      "callee": {
+        "#__proto__": "function <large string>",
+        "prototype": "Object {...}",
+        "name": "string foo",
+        "caller": "object null",
+        "arguments": "Object {...}",
+        "length": "number 0"
+      },
+      "Symbol.iterator": {
+        "#__proto__": "function <large string>",
+        "length": "number 0",
+        "name": "string values",
+        "caller": "object null",
+        "arguments": "object null"
+      }
+    },
+    "locals": {
+      "o": {
+        "#__proto__": {
+          "constructor": "function <large string>",
+          "hasOwnProperty": "function <large string>",
+          "propertyIsEnumerable": "function <large string>",
+          "isPrototypeOf": "function <large string>",
+          "toLocaleString": "function <large string>",
+          "toString": "function <large string>",
+          "valueOf": "function <large string>",
+          "#__proto__": "object null",
+          "__defineGetter__": "function <large string>",
+          "__defineSetter__": "function <large string>",
+          "__lookupGetter__": "function <large string>",
+          "__lookupSetter__": "function <large string>"
+        },
+        "b": "number 10",
+        "c": "number 20",
+        "constructor": "undefined undefined"
+      }
+    },
+    "globals": {
+      "foo": {
+        "#__proto__": "function <large string>",
+        "prototype": "Object {...}",
+        "name": "string foo",
+        "caller": "object null",
+        "arguments": "Object {...}",
+        "length": "number 0"
+      },
+      "o": {
+        "#__proto__": "Object {...}"
+      }
+    }
+  }
+]

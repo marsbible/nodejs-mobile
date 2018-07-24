@@ -1,0 +1,174 @@
+[
+  {
+    "this": "Object {...}",
+    "arguments": "Object {...}",
+    "locals": {
+      "a": "string [Uninitialized block variable]",
+      "aConst": "string [Uninitialized block variable]",
+      "innerFunc": "function <large string>",
+      "x": "undefined undefined"
+    }
+  },
+  {
+    "this": "Object {...}",
+    "arguments": "Object {...}",
+    "locals": {
+      "a": "number 0",
+      "aConst": "number 1",
+      "innerFunc": "function <large string>",
+      "x": "number -1"
+    }
+  },
+  {
+    "this": {
+      "blockScopeNestedFunctionTestFunc": "function <large string>"
+    },
+    "arguments": {
+      "#__proto__": "Object {...}",
+      "length": "number 0",
+      "callee": "function <large string>",
+      "Symbol.iterator": "function <large string>"
+    },
+    "locals": {
+      "bConst": "string [Uninitialized block variable]",
+      "b": "string [Uninitialized block variable]",
+      "innerInnerFunc": {
+        "#__proto__": "function function() {\n    [native code]\n}",
+        "prototype": "Object {...}",
+        "name": "string innerInnerFunc",
+        "caller": "object null",
+        "arguments": "object null",
+        "length": "number 0"
+      }
+    },
+    "scopes0": {
+      "a": "number 0",
+      "aConst": "number 1"
+    },
+    "globals": {
+      "blockScopeNestedFunctionTestFunc": "function <large string>"
+    }
+  },
+  {
+    "this": {
+      "blockScopeNestedFunctionTestFunc": "function <large string>"
+    },
+    "arguments": {
+      "#__proto__": "Object {...}",
+      "length": "number 0",
+      "callee": "function <large string>",
+      "Symbol.iterator": "function <large string>"
+    },
+    "locals": {
+      "bConst": "number 2",
+      "b": "number 3",
+      "innerInnerFunc": {
+        "#__proto__": "function function() {\n    [native code]\n}",
+        "prototype": "Object {...}",
+        "name": "string innerInnerFunc",
+        "caller": "object null",
+        "arguments": "object null",
+        "length": "number 0"
+      }
+    },
+    "scopes0": {
+      "a": "number 0",
+      "aConst": "number 1"
+    },
+    "globals": {
+      "blockScopeNestedFunctionTestFunc": "function <large string>"
+    }
+  },
+  {
+    "this": {
+      "blockScopeNestedFunctionTestFunc": "function <large string>"
+    },
+    "arguments": {
+      "#__proto__": "Object {...}",
+      "length": "number 0",
+      "callee": "function <large string>",
+      "Symbol.iterator": "function <large string>"
+    },
+    "locals": {
+      "c": "string [Uninitialized block variable]",
+      "cConst": "string [Uninitialized block variable]"
+    },
+    "scopes0": {
+      "bConst": "number 2",
+      "b": "number 3"
+    },
+    "scopes1": {
+      "a": "number 0",
+      "aConst": "number 1"
+    },
+    "globals": {
+      "blockScopeNestedFunctionTestFunc": "function <large string>"
+    }
+  },
+  {
+    "this": {
+      "blockScopeNestedFunctionTestFunc": "function <large string>"
+    },
+    "arguments": {
+      "#__proto__": "Object {...}",
+      "length": "number 0",
+      "callee": "function <large string>",
+      "Symbol.iterator": "function <large string>"
+    },
+    "locals": {
+      "c": "number 4",
+      "cConst": "number 5"
+    },
+    "scopes0": {
+      "bConst": "number 2",
+      "b": "number 3"
+    },
+    "scopes1": {
+      "a": "number 0",
+      "aConst": "number 1"
+    },
+    "globals": {
+      "blockScopeNestedFunctionTestFunc": "function <large string>"
+    }
+  },
+  {
+    "this": {
+      "blockScopeNestedFunctionTestFunc": "function <large string>"
+    },
+    "arguments": {
+      "#__proto__": "Object {...}",
+      "length": "number 0",
+      "callee": "function <large string>",
+      "Symbol.iterator": "function <large string>"
+    },
+    "locals": {
+      "bConst": "number 2",
+      "b": "number 3",
+      "innerInnerFunc": {
+        "#__proto__": "function function() {\n    [native code]\n}",
+        "prototype": "Object {...}",
+        "name": "string innerInnerFunc",
+        "caller": "object null",
+        "arguments": "object null",
+        "length": "number 0"
+      }
+    },
+    "scopes0": {
+      "a": "number 0",
+      "aConst": "number 1"
+    },
+    "globals": {
+      "blockScopeNestedFunctionTestFunc": "function <large string>"
+    }
+  },
+  {
+    "this": "Object {...}",
+    "arguments": "Object {...}",
+    "locals": {
+      "a": "number 0",
+      "aConst": "number 1",
+      "innerFunc": "function <large string>",
+      "x": "number -1"
+    }
+  }
+]

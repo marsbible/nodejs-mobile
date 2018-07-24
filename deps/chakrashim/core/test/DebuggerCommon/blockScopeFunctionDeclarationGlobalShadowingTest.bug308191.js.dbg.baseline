@@ -1,0 +1,27 @@
+[
+  {
+    "evaluate": {
+      "f": "Error 'f' is not defined"
+    }
+  },
+  {
+    "evaluate": {
+      "e": "Error 'f' is not defined"
+    }
+  },
+  {
+    "evaluate": {
+      "f": "function function f() { }"
+    }
+  },
+  {
+    "evaluate": {
+      "f": "Error 'f' is not defined"
+    }
+  },
+  {
+    "evaluate": {
+      "e": "Error 'f' is not defined"
+    }
+  }
+]

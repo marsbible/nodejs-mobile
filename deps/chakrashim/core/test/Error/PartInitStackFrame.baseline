@@ -1,0 +1,3 @@
+Error: Internal error
+	at foo (PartInitStackFrame.js:15:18)
+	at Global code (PartInitStackFrame.js:24:3)

@@ -1,0 +1,54 @@
+[
+  {
+    "this": {
+      "Call": "function <large string>",
+      "bar": "function <large string>",
+      "Run": "function <large string>",
+      "callcount": "number 3"
+    },
+    "arguments": {
+      "#__proto__": "Object {...}",
+      "length": "number 0",
+      "callee": "function <large string>",
+      "Symbol.iterator": "function <large string>"
+    },
+    "locals": {
+      "z": "number 1"
+    },
+    "globals": {
+      "Call": "function <large string>",
+      "bar": "function <large string>",
+      "Run": "function <large string>",
+      "callcount": "number 3"
+    }
+  },
+  {
+    "this": {
+      "Call": "function <large string>",
+      "bar": "function <large string>",
+      "Run": "function <large string>",
+      "callcount": "number 3"
+    },
+    "arguments": {
+      "#__proto__": "Object {...}",
+      "length": "number 0",
+      "callee": "function <large string>",
+      "Symbol.iterator": "function <large string>"
+    },
+    "locals": {
+      "e": {
+        "#__proto__": "Error ",
+        "number": "number 0",
+        "description": "string ",
+        "stack": "string <large string>"
+      },
+      "z": "number 2"
+    },
+    "globals": {
+      "Call": "function <large string>",
+      "bar": "function <large string>",
+      "Run": "function <large string>",
+      "callcount": "number 3"
+    }
+  }
+]

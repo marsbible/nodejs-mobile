@@ -1,0 +1,26 @@
+[
+  {
+    "this": {},
+    "locals": {
+      "b": "number 2",
+      "a": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "callStack": [
+      {
+        "line": 10,
+        "column": 4,
+        "sourceText": "a == 2",
+        "function": "Global code"
+      }
+    ]
+  },
+  {
+    "this": "Object {...}",
+    "locals": {
+      "a": "number 1"
+    }
+  }
+]

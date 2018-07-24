@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ChakraCoreRootDirectory>$(MSBuildThisFileDirectory)..\</ChakraCoreRootDirectory>
+
+    <!-- ChakraCore -->
+    <BuildConfig_ARMASM_Path>$(MSBuildThisFileDirectory)</BuildConfig_ARMASM_Path>
+    <BuildConfigPropsPath>$(MSBuildThisFileDirectory)</BuildConfigPropsPath>
+
+    <ChakraBuildPathImported>true</ChakraBuildPathImported>
+  </PropertyGroup>
+  <PropertyGroup Label="ICU">
+    <!-- IcuLibDir can be set in environment or with "/p:IcuLibDir=..." -->
+    <IcuLibDir Condition="'$(IcuLibDir)'=='' AND '$(Configuration)'=='Debug'">$(ChakraCoreRootDirectory)\deps\static\icu-small\debug</IcuLibDir>
+    <IcuLibDir Condition="'$(IcuLibDir)'=='' AND ('$(Configuration)'=='Test' or '$(Configuration)'=='Release')">$(ChakraCoreRootDirectory)\deps\static\icu-small\release</IcuLibDir>
+    <!-- IcuIncludeDir can be set in environment or with "/p:IcuIncludeDir=..." -->
+    <IcuIncludeDir Condition="'$(IcuIncludeDir)'==''">$(ChakraCoreRootDirectory)\deps\icu-small\source</IcuIncludeDir>
+  </PropertyGroup>
+</Project>

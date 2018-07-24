@@ -1,0 +1,2 @@
+ReferenceError: 'nosuchfunc' is not defined
+	at Global code (sourceInfo_00.js:14:1)

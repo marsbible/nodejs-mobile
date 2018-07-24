@@ -1,0 +1,42 @@
+[
+  {
+    "this": "Object {...}",
+    "locals": {
+      "y": "string <large string>",
+      "x": "number 1"
+    }
+  },
+  {
+    "this": {
+      "x": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 0",
+      "x": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "x": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 1",
+      "x": "number 1"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "x": "number 1"
+    },
+    "locals": {
+      "z": "number 1",
+      "y": "number 2",
+      "x": "number 1"
+    },
+    "globals": {}
+  }
+]

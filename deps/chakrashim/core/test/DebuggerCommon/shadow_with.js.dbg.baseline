@@ -1,0 +1,11 @@
+[
+  {
+    "this": {
+      "a": "number 1"
+    },
+    "locals": {
+      "a": "number 1"
+    },
+    "globals": {}
+  }
+]

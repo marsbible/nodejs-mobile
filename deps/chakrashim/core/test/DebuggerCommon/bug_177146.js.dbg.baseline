@@ -1,0 +1,22 @@
+[
+  {
+    "this": {
+      "F1": "function <large string>",
+      "F2": "function <large string>"
+    },
+    "arguments": {
+      "#__proto__": "Object {...}",
+      "length": "number 1",
+      "callee": "function <large string>",
+      "Symbol.iterator": "function <large string>",
+      "[0]": "string Hello"
+    },
+    "locals": {
+      "a": "string Hello"
+    },
+    "globals": {
+      "F1": "function <large string>",
+      "F2": "function <large string>"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+
+qmarkbug.js(6, 5)
+	Asm.js Compilation Error function : None::f
+	Conditional expressions must be of type int, double, or float
+
+Asm.js compilation failed.
+
+qmarkbug.js(6, 5)
+	Asm.js Compilation Error function : None::f
+	Conditional expressions must be of type int, double, or float
+
+Asm.js compilation failed.

@@ -1,0 +1,15 @@
+[
+  {
+    "evaluate": {
+      "let a = 1": "undefined undefined"
+    }
+  },
+  {
+    "this": {},
+    "locals": {
+      "a": "number 100",
+      "b": "number 200"
+    },
+    "globals": {}
+  }
+]

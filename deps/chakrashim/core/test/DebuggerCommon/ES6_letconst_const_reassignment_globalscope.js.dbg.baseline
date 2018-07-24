@@ -1,0 +1,15 @@
+[
+  {
+    "this": {},
+    "locals": {
+      "a": "number 1",
+      "b": "number 2"
+    },
+    "globals": {}
+  },
+  {
+    "evaluate": {
+      "b++": "Error <large string>"
+    }
+  }
+]

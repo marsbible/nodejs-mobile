@@ -1,0 +1,2 @@
+TypeError: Object doesn't support property or method 'nosuchfunc'
+	at Global code (sourceInfo_10.js:15:3)

@@ -1,0 +1,3 @@
+ReferenceError: 'c' is not defined
+	at foo (forIn.error.js:10:5)
+	at Global code (forIn.error.js:18:3)

@@ -1,0 +1,15 @@
+punycode.js:*
+	throw new RangeError(errors[type]);
+	^
+
+RangeError: Invalid input
+   at error (punycode.js:*:*)
+   at decode (punycode.js:*:*)
+   at Anonymous function (*test*message*core_line_numbers.js:*:*)
+   at Module.prototype._compile (module.js:*:*)
+   at Module._extensions[.js] (module.js:*:*)
+   at Module.prototype.load (module.js:*:*)
+   at tryModuleLoad (module.js:*)
+   at Module._load (module.js:*:*)
+   at Module.runMain (module.js:*:*)
+   at startup (bootstrap_node.js:*:*)

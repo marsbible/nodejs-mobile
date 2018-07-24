@@ -1,0 +1,31 @@
+[
+  {
+    "this": {
+      "x": "undefined undefined",
+      "bar": "undefined undefined"
+    },
+    "locals": {
+      "x": "undefined undefined",
+      "bar": "undefined undefined"
+    },
+    "globals": {}
+  },
+  {
+    "this": {
+      "x": "number 1",
+      "bar": "function <large string>"
+    },
+    "locals": {
+      "x": "number 1",
+      "bar": {
+        "#__proto__": "function <large string>",
+        "prototype": "Object {...}",
+        "name": "string bar",
+        "caller": "object null",
+        "arguments": "object null",
+        "length": "number 0"
+      }
+    },
+    "globals": {}
+  }
+]

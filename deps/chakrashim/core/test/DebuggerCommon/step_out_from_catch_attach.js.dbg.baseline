@@ -1,0 +1,30 @@
+[
+  {
+    "this": {
+      "foo": "function <large string>",
+      "bar": "function <large string>",
+      "Run": "function <large string>"
+    },
+    "arguments": {
+      "#__proto__": "Object {...}",
+      "length": "number 0",
+      "callee": "function <large string>",
+      "Symbol.iterator": "function <large string>"
+    },
+    "locals": {
+      "x": "number 1",
+      "e": {
+        "#__proto__": "Error ",
+        "number": "number 0",
+        "description": "string ",
+        "stack": "string <large string>"
+      },
+      "z": "number 1"
+    },
+    "globals": {
+      "foo": "function <large string>",
+      "bar": "function <large string>",
+      "Run": "function <large string>"
+    }
+  }
+]

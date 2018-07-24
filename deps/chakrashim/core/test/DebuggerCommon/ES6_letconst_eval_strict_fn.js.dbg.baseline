@@ -1,0 +1,24 @@
+[
+  {
+    "this": {
+      "Run": "function <large string>"
+    },
+    "locals": {
+      "arguments": {
+        "#__proto__": "Object {...}",
+        "callee": "Error <large string>",
+        "length": "number 0",
+        "Symbol.iterator": "function <large string>"
+      },
+      "a": "number 1"
+    },
+    "globals": {
+      "Run": "function <large string>"
+    }
+  },
+  {
+    "evaluate": {
+      "a": "number 1"
+    }
+  }
+]

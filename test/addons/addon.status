@@ -1,0 +1,25 @@
+prefix addons
+
+# To mark a test as flaky, list the test name in the appropriate section
+# below, without ".js", followed by ": PASS,FLAKY". Example:
+# sample-test                        : PASS,FLAKY
+
+[true] # This section applies to all platforms
+
+[$system==win32]
+
+[$system==linux]
+
+[$system==macos]
+
+[$system==solaris]
+
+[$system==freebsd]
+
+[$system==aix]
+
+[$jsEngine==chakracore]
+async-hooks-promise/test : PASS,FLAKY
+new-target/test : PASS,FLAKY
+callback-scope/test : PASS,FLAKY
+callback-scope/test-resolve-async : PASS,FLAKY

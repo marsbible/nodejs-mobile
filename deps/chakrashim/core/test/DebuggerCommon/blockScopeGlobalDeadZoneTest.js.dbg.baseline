@@ -1,0 +1,29 @@
+[
+  {
+    "this": "Object {...}",
+    "locals": {
+      "a": "undefined undefined"
+    }
+  },
+  {
+    "this": "Object {...}",
+    "locals": {
+      "a": "number 0"
+    }
+  },
+  {
+    "this": "Object {...}",
+    "locals": {
+      "b": "number 1",
+      "a": "number 0"
+    }
+  },
+  {
+    "this": "Object {...}",
+    "locals": {
+      "b": "number 1",
+      "c": "number 2",
+      "a": "number 0"
+    }
+  }
+]

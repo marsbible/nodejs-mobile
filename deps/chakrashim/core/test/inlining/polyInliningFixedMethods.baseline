@@ -1,0 +1,13 @@
+b1
+pr
+b1
+f
+1
+a
+b1
+f
+f
+TypeError: Unable to get property 'method0' of undefined or null reference
+   at v15 (polyInliningFixedMethods.js:94:7)
+   at func3 (polyInliningFixedMethods.js:99:3)
+   at Global code (polyInliningFixedMethods.js:104:3)

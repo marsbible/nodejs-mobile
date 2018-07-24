@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<regress-exe>
+  <test>
+    <default>
+      <compile-flags>-dbgbaseline:JsDiagBreakpoints.js.dbg.baseline</compile-flags>
+      <files>JsDiagBreakpoints.js</files>
+    </default>
+  </test>
+  <test>
+    <default>
+      <compile-flags>-dbgbaseline:JsDiagBreakpoints.js.dbg.baseline</compile-flags>
+      <files>JsDiagBreakpoints_ArrayBuffer.js</files>
+    </default>
+  </test>
+  <test>
+    <default>
+      <compile-flags>-debuglaunch -dbgbaseline:JsDiagEvaluate.js.dbg.baseline</compile-flags>
+      <files>JsDiagEvaluate.js</files>
+    </default>
+  </test>
+  <test>
+    <default>
+      <compile-flags>-debuglaunch -dbgbaseline:JsDiagGetFunctionPosition.js.dbg.baseline</compile-flags>
+      <files>JsDiagGetFunctionPosition.js</files>
+    </default>
+  </test>
+  <test>
+    <default>
+      <compile-flags>-debuglaunch -dbgbaseline:JsDiagGetFunctionPositionIntl.js.dbg.baseline -Intl</compile-flags>
+      <files>JsDiagGetFunctionPositionIntl.js</files>
+      <!-- xplat-todo: enable on xplat when Intl is supported on xplat (Microsoft/ChakraCore#2919) -->
+      <tags>exclude_xplat,Intl</tags>
+    </default>
+  </test>
+  <test>
+    <default>
+      <compile-flags>-debuglaunch -dbgbaseline:JsDiagGetScripts.js.dbg.baseline</compile-flags>
+      <files>JsDiagGetScripts.js</files>
+    </default>
+  </test>
+  <test>
+    <default>
+      <compile-flags>-debuglaunch -dbgbaseline:JsDiagGetStackProperties.js.dbg.baseline</compile-flags>
+      <files>JsDiagGetStackProperties.js</files>
+    </default>
+  </test>
+  <test>
+    <default>
+      <compile-flags>-debuglaunch -dbgbaseline:JsDiagGetStackTrace.js.dbg.baseline</compile-flags>
+      <files>JsDiagGetStackTrace.js</files>
+    </default>
+  </test>
+  <test>
+    <default>
+      <compile-flags>-debuglaunch -dbgbaseline:JsDiagRequestAsyncBreak.js.dbg.baseline</compile-flags>
+      <files>JsDiagRequestAsyncBreak.js</files>
+    </default>
+  </test>
+  <test>
+    <default>
+      <compile-flags>-debuglaunch -dbgbaseline:JsrtDebugUtilsAddPropertyType.js.dbg.baseline</compile-flags>
+      <files>JsrtDebugUtilsAddPropertyType.js</files>
+    </default>
+  </test>
+  <test>
+    <default>
+      <compile-flags>-debuglaunch -dbgbaseline:MultipleContextStack.js.dbg.baseline</compile-flags>
+      <files>MultipleContextStack.js</files>
+    </default>
+  </test>
+</regress-exe>
